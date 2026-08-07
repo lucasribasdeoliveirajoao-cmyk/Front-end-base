@@ -1,28 +1,38 @@
 @charset "UTF-8";
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     /*height: 100%; */
 }
 
 body {
-    background-image: linear-gradient(to right, #B484D9, #AEA1F0);
+    background-image: linear-gradient(to right, #f4e801, #fd0000);
 }
-main {/*conteúdo principal do site*/
-    background-color: white;
+main {
+    background-image: linear-gradient(to right, #f4e801, #fd0000);
+    background-color: rgb(217, 19, 19);
     width: 600px; /*para fazer a largura*/
     border-radius: 10px; /*para fazer o arredondamento das bordas*/
-    box-shadow: 5px 5px 15px #3e2d4b9e; /*para fazer sombra na seção*/
+    box-shadow: 5px 5px 15px #fcec00; /*para fazer sombra na seção*/
     padding: 10px; /*espaçamento interno*/
     margin: auto;/*espaçamento externo*/
 }
 
 h1{
-    color: #F596FA;
+    background-image: linear-gradient(to right, #f4e801, #fd0000);
+    color: #ff0000;
     text-align: center;
-    text-shadow: 1px 1px 2px #6c416e9b;
+    text-shadow: 1px 1px 4px #ffa2009b;
 }
-
+h2{
+ background-image: linear-gradient(to right, #f4e801, #fd0000);
+    color: #ff0000;
+    text-align: center;
+    text-shadow: 1px 1px 4px #ffa2009b;
+}
+p{
+    text-align: justify;
+}
 
 
 
